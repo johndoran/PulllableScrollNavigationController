@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		372BBB2C15E56F4300DF5259 /* city_sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 372BBB2A15E56F4300DF5259 /* city_sel.png */; };
+		372BBB2D15E56F4300DF5259 /* city_unsel.png in Resources */ = {isa = PBXBuildFile; fileRef = 372BBB2B15E56F4300DF5259 /* city_unsel.png */; };
+		372BBB2F15E570CA00DF5259 /* warning.png in Resources */ = {isa = PBXBuildFile; fileRef = 372BBB2E15E570CA00DF5259 /* warning.png */; };
+		37FE1D1F15E4142800021AE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FE1D1E15E4142800021AE0 /* UIKit.framework */; };
+		37FE1D2115E4142800021AE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FE1D2015E4142800021AE0 /* Foundation.framework */; };
+		37FE1D2315E4142800021AE0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FE1D2215E4142800021AE0 /* CoreGraphics.framework */; };
+		37FE1D2915E4142800021AE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37FE1D2715E4142800021AE0 /* InfoPlist.strings */; };
+		37FE1D2B15E4142800021AE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FE1D2A15E4142800021AE0 /* main.m */; };
+		37FE1D3D15E4142800021AE0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FE1D3C15E4142800021AE0 /* SenTestingKit.framework */; };
+		37FE1D3E15E4142800021AE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FE1D1E15E4142800021AE0 /* UIKit.framework */; };
+		37FE1D3F15E4142800021AE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FE1D2015E4142800021AE0 /* Foundation.framework */; };
+		37FE1D4715E4142800021AE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37FE1D4515E4142800021AE0 /* InfoPlist.strings */; };
+		37FE1D4A15E4142800021AE0 /* OzaScrollNavTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FE1D4915E4142800021AE0 /* OzaScrollNavTests.m */; };
+		37FE1D6E15E414C100021AE0 /* BasePullableTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FE1D5915E414C100021AE0 /* BasePullableTabViewController.m */; };
+		37FE1D6F15E414C100021AE0 /* PullableNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FE1D5B15E414C100021AE0 /* PullableNavigationController.m */; };
+		37FE1D7015E414C100021AE0 /* PullableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FE1D5D15E414C100021AE0 /* PullableView.m */; };
+		37FE1D7115E414C100021AE0 /* OBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FE1D6015E414C100021AE0 /* OBAppDelegate.m */; };
+		37FE1D7215E414C100021AE0 /* OBDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FE1D6215E414C100021AE0 /* OBDemoViewController.m */; };
+		37FE1D7315E414C100021AE0 /* OBDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37FE1D6315E414C100021AE0 /* OBDemoViewController.xib */; };
+		37FE1D7415E414C100021AE0 /* OBFifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FE1D6515E414C100021AE0 /* OBFifthViewController.m */; };
+		37FE1D7515E414C100021AE0 /* OBFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FE1D6715E414C100021AE0 /* OBFirstViewController.m */; };
+		37FE1D7615E414C100021AE0 /* OBFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FE1D6915E414C100021AE0 /* OBFourthViewController.m */; };
+		37FE1D7715E414C100021AE0 /* OBSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FE1D6B15E414C100021AE0 /* OBSecondViewController.m */; };
+		37FE1D7815E414C100021AE0 /* OBThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FE1D6D15E414C100021AE0 /* OBThirdViewController.m */; };
+		37FE1D7B15E414E200021AE0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FE1D7A15E414E200021AE0 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37FE1D4015E4142800021AE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37FE1D1115E4142800021AE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37FE1D1915E4142800021AE0;
+			remoteInfo = OzaScrollNav;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		372BBB2A15E56F4300DF5259 /* city_sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = city_sel.png; sourceTree = "<group>"; };
+		372BBB2B15E56F4300DF5259 /* city_unsel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = city_unsel.png; sourceTree = "<group>"; };
+		372BBB2E15E570CA00DF5259 /* warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warning.png; sourceTree = "<group>"; };
+		37FE1D1A15E4142800021AE0 /* OzaScrollNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OzaScrollNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FE1D1E15E4142800021AE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37FE1D2015E4142800021AE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37FE1D2215E4142800021AE0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		37FE1D2615E4142800021AE0 /* OzaScrollNav-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OzaScrollNav-Info.plist"; sourceTree = "<group>"; };
+		37FE1D2815E4142800021AE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37FE1D2A15E4142800021AE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37FE1D2C15E4142800021AE0 /* OzaScrollNav-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OzaScrollNav-Prefix.pch"; sourceTree = "<group>"; };
+		37FE1D3B15E4142800021AE0 /* OzaScrollNavTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OzaScrollNavTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FE1D3C15E4142800021AE0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		37FE1D4415E4142800021AE0 /* OzaScrollNavTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OzaScrollNavTests-Info.plist"; sourceTree = "<group>"; };
+		37FE1D4615E4142800021AE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37FE1D4815E4142800021AE0 /* OzaScrollNavTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OzaScrollNavTests.h; sourceTree = "<group>"; };
+		37FE1D4915E4142800021AE0 /* OzaScrollNavTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OzaScrollNavTests.m; sourceTree = "<group>"; };
+		37FE1D5815E414C100021AE0 /* BasePullableTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePullableTabViewController.h; sourceTree = "<group>"; };
+		37FE1D5915E414C100021AE0 /* BasePullableTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePullableTabViewController.m; sourceTree = "<group>"; };
+		37FE1D5A15E414C100021AE0 /* PullableNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullableNavigationController.h; sourceTree = "<group>"; };
+		37FE1D5B15E414C100021AE0 /* PullableNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullableNavigationController.m; sourceTree = "<group>"; };
+		37FE1D5C15E414C100021AE0 /* PullableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullableView.h; sourceTree = "<group>"; };
+		37FE1D5D15E414C100021AE0 /* PullableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullableView.m; sourceTree = "<group>"; };
+		37FE1D5F15E414C100021AE0 /* OBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBAppDelegate.h; sourceTree = "<group>"; };
+		37FE1D6015E414C100021AE0 /* OBAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBAppDelegate.m; sourceTree = "<group>"; };
+		37FE1D6115E414C100021AE0 /* OBDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBDemoViewController.h; sourceTree = "<group>"; };
+		37FE1D6215E414C100021AE0 /* OBDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBDemoViewController.m; sourceTree = "<group>"; };
+		37FE1D6315E414C100021AE0 /* OBDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OBDemoViewController.xib; sourceTree = "<group>"; };
+		37FE1D6415E414C100021AE0 /* OBFifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBFifthViewController.h; sourceTree = "<group>"; };
+		37FE1D6515E414C100021AE0 /* OBFifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBFifthViewController.m; sourceTree = "<group>"; };
+		37FE1D6615E414C100021AE0 /* OBFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBFirstViewController.h; sourceTree = "<group>"; };
+		37FE1D6715E414C100021AE0 /* OBFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBFirstViewController.m; sourceTree = "<group>"; };
+		37FE1D6815E414C100021AE0 /* OBFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBFourthViewController.h; sourceTree = "<group>"; };
+		37FE1D6915E414C100021AE0 /* OBFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBFourthViewController.m; sourceTree = "<group>"; };
+		37FE1D6A15E414C100021AE0 /* OBSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBSecondViewController.h; sourceTree = "<group>"; };
+		37FE1D6B15E414C100021AE0 /* OBSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBSecondViewController.m; sourceTree = "<group>"; };
+		37FE1D6C15E414C100021AE0 /* OBThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBThirdViewController.h; sourceTree = "<group>"; };
+		37FE1D6D15E414C100021AE0 /* OBThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBThirdViewController.m; sourceTree = "<group>"; };
+		37FE1D7A15E414E200021AE0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37FE1D1715E4142800021AE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FE1D7B15E414E200021AE0 /* MapKit.framework in Frameworks */,
+				37FE1D1F15E4142800021AE0 /* UIKit.framework in Frameworks */,
+				37FE1D2115E4142800021AE0 /* Foundation.framework in Frameworks */,
+				37FE1D2315E4142800021AE0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FE1D3715E4142800021AE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FE1D3D15E4142800021AE0 /* SenTestingKit.framework in Frameworks */,
+				37FE1D3E15E4142800021AE0 /* UIKit.framework in Frameworks */,
+				37FE1D3F15E4142800021AE0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		372BBB1F15E56B8C00DF5259 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				372BBB2E15E570CA00DF5259 /* warning.png */,
+				372BBB2A15E56F4300DF5259 /* city_sel.png */,
+				372BBB2B15E56F4300DF5259 /* city_unsel.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		37FE1D0F15E4142800021AE0 = {
+			isa = PBXGroup;
+			children = (
+				37FE1D7A15E414E200021AE0 /* MapKit.framework */,
+				37FE1D2415E4142800021AE0 /* OzaScrollNav */,
+				37FE1D4215E4142800021AE0 /* OzaScrollNavTests */,
+				37FE1D1D15E4142800021AE0 /* Frameworks */,
+				37FE1D1B15E4142800021AE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37FE1D1B15E4142800021AE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37FE1D1A15E4142800021AE0 /* OzaScrollNav.app */,
+				37FE1D3B15E4142800021AE0 /* OzaScrollNavTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37FE1D1D15E4142800021AE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37FE1D1E15E4142800021AE0 /* UIKit.framework */,
+				37FE1D2015E4142800021AE0 /* Foundation.framework */,
+				37FE1D2215E4142800021AE0 /* CoreGraphics.framework */,
+				37FE1D3C15E4142800021AE0 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37FE1D2415E4142800021AE0 /* OzaScrollNav */ = {
+			isa = PBXGroup;
+			children = (
+				37FE1D5715E414C100021AE0 /* Component */,
+				37FE1D5E15E414C100021AE0 /* Demo */,
+				37FE1D2515E4142800021AE0 /* Supporting Files */,
+			);
+			path = OzaScrollNav;
+			sourceTree = "<group>";
+		};
+		37FE1D2515E4142800021AE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37FE1D2615E4142800021AE0 /* OzaScrollNav-Info.plist */,
+				37FE1D2715E4142800021AE0 /* InfoPlist.strings */,
+				37FE1D2A15E4142800021AE0 /* main.m */,
+				37FE1D2C15E4142800021AE0 /* OzaScrollNav-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37FE1D4215E4142800021AE0 /* OzaScrollNavTests */ = {
+			isa = PBXGroup;
+			children = (
+				37FE1D4815E4142800021AE0 /* OzaScrollNavTests.h */,
+				37FE1D4915E4142800021AE0 /* OzaScrollNavTests.m */,
+				37FE1D4315E4142800021AE0 /* Supporting Files */,
+			);
+			path = OzaScrollNavTests;
+			sourceTree = "<group>";
+		};
+		37FE1D4315E4142800021AE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37FE1D4415E4142800021AE0 /* OzaScrollNavTests-Info.plist */,
+				37FE1D4515E4142800021AE0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37FE1D5715E414C100021AE0 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				37FE1D5815E414C100021AE0 /* BasePullableTabViewController.h */,
+				37FE1D5915E414C100021AE0 /* BasePullableTabViewController.m */,
+				37FE1D5A15E414C100021AE0 /* PullableNavigationController.h */,
+				37FE1D5B15E414C100021AE0 /* PullableNavigationController.m */,
+				37FE1D5C15E414C100021AE0 /* PullableView.h */,
+				37FE1D5D15E414C100021AE0 /* PullableView.m */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		37FE1D5E15E414C100021AE0 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				372BBB1F15E56B8C00DF5259 /* img */,
+				37FE1D5F15E414C100021AE0 /* OBAppDelegate.h */,
+				37FE1D6015E414C100021AE0 /* OBAppDelegate.m */,
+				37FE1D6115E414C100021AE0 /* OBDemoViewController.h */,
+				37FE1D6215E414C100021AE0 /* OBDemoViewController.m */,
+				37FE1D6315E414C100021AE0 /* OBDemoViewController.xib */,
+				37FE1D6415E414C100021AE0 /* OBFifthViewController.h */,
+				37FE1D6515E414C100021AE0 /* OBFifthViewController.m */,
+				37FE1D6615E414C100021AE0 /* OBFirstViewController.h */,
+				37FE1D6715E414C100021AE0 /* OBFirstViewController.m */,
+				37FE1D6815E414C100021AE0 /* OBFourthViewController.h */,
+				37FE1D6915E414C100021AE0 /* OBFourthViewController.m */,
+				37FE1D6A15E414C100021AE0 /* OBSecondViewController.h */,
+				37FE1D6B15E414C100021AE0 /* OBSecondViewController.m */,
+				37FE1D6C15E414C100021AE0 /* OBThirdViewController.h */,
+				37FE1D6D15E414C100021AE0 /* OBThirdViewController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37FE1D1915E4142800021AE0 /* OzaScrollNav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37FE1D4D15E4142800021AE0 /* Build configuration list for PBXNativeTarget "OzaScrollNav" */;
+			buildPhases = (
+				37FE1D1615E4142800021AE0 /* Sources */,
+				37FE1D1715E4142800021AE0 /* Frameworks */,
+				37FE1D1815E4142800021AE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OzaScrollNav;
+			productName = OzaScrollNav;
+			productReference = 37FE1D1A15E4142800021AE0 /* OzaScrollNav.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37FE1D3A15E4142800021AE0 /* OzaScrollNavTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37FE1D5015E4142800021AE0 /* Build configuration list for PBXNativeTarget "OzaScrollNavTests" */;
+			buildPhases = (
+				37FE1D3615E4142800021AE0 /* Sources */,
+				37FE1D3715E4142800021AE0 /* Frameworks */,
+				37FE1D3815E4142800021AE0 /* Resources */,
+				37FE1D3915E4142800021AE0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37FE1D4115E4142800021AE0 /* PBXTargetDependency */,
+			);
+			name = OzaScrollNavTests;
+			productName = OzaScrollNavTests;
+			productReference = 37FE1D3B15E4142800021AE0 /* OzaScrollNavTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37FE1D1115E4142800021AE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OB;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "John Doran";
+			};
+			buildConfigurationList = 37FE1D1415E4142800021AE0 /* Build configuration list for PBXProject "OzaScrollNav" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37FE1D0F15E4142800021AE0;
+			productRefGroup = 37FE1D1B15E4142800021AE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37FE1D1915E4142800021AE0 /* OzaScrollNav */,
+				37FE1D3A15E4142800021AE0 /* OzaScrollNavTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37FE1D1815E4142800021AE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FE1D2915E4142800021AE0 /* InfoPlist.strings in Resources */,
+				37FE1D7315E414C100021AE0 /* OBDemoViewController.xib in Resources */,
+				372BBB2C15E56F4300DF5259 /* city_sel.png in Resources */,
+				372BBB2D15E56F4300DF5259 /* city_unsel.png in Resources */,
+				372BBB2F15E570CA00DF5259 /* warning.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FE1D3815E4142800021AE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FE1D4715E4142800021AE0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37FE1D3915E4142800021AE0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37FE1D1615E4142800021AE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FE1D2B15E4142800021AE0 /* main.m in Sources */,
+				37FE1D6E15E414C100021AE0 /* BasePullableTabViewController.m in Sources */,
+				37FE1D6F15E414C100021AE0 /* PullableNavigationController.m in Sources */,
+				37FE1D7015E414C100021AE0 /* PullableView.m in Sources */,
+				37FE1D7115E414C100021AE0 /* OBAppDelegate.m in Sources */,
+				37FE1D7215E414C100021AE0 /* OBDemoViewController.m in Sources */,
+				37FE1D7415E414C100021AE0 /* OBFifthViewController.m in Sources */,
+				37FE1D7515E414C100021AE0 /* OBFirstViewController.m in Sources */,
+				37FE1D7615E414C100021AE0 /* OBFourthViewController.m in Sources */,
+				37FE1D7715E414C100021AE0 /* OBSecondViewController.m in Sources */,
+				37FE1D7815E414C100021AE0 /* OBThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FE1D3615E4142800021AE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FE1D4A15E4142800021AE0 /* OzaScrollNavTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37FE1D4115E4142800021AE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37FE1D1915E4142800021AE0 /* OzaScrollNav */;
+			targetProxy = 37FE1D4015E4142800021AE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37FE1D2715E4142800021AE0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37FE1D2815E4142800021AE0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		37FE1D4515E4142800021AE0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37FE1D4615E4142800021AE0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37FE1D4B15E4142800021AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Paschal Nee (2F3926BSCC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "AF6D54AF-971B-44EE-A259-0541E90A5AA9";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37FE1D4C15E4142800021AE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Paschal Nee (2F3926BSCC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Paschal Nee (2F3926BSCC)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "AF6D54AF-971B-44EE-A259-0541E90A5AA9";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AF6D54AF-971B-44EE-A259-0541E90A5AA9";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37FE1D4E15E4142800021AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OzaScrollNav/OzaScrollNav-Prefix.pch";
+				INFOPLIST_FILE = "OzaScrollNav/OzaScrollNav-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37FE1D4F15E4142800021AE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OzaScrollNav/OzaScrollNav-Prefix.pch";
+				INFOPLIST_FILE = "OzaScrollNav/OzaScrollNav-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		37FE1D5115E4142800021AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OzaScrollNav.app/OzaScrollNav";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OzaScrollNav/OzaScrollNav-Prefix.pch";
+				INFOPLIST_FILE = "OzaScrollNavTests/OzaScrollNavTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		37FE1D5215E4142800021AE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OzaScrollNav.app/OzaScrollNav";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OzaScrollNav/OzaScrollNav-Prefix.pch";
+				INFOPLIST_FILE = "OzaScrollNavTests/OzaScrollNavTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37FE1D1415E4142800021AE0 /* Build configuration list for PBXProject "OzaScrollNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FE1D4B15E4142800021AE0 /* Debug */,
+				37FE1D4C15E4142800021AE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37FE1D4D15E4142800021AE0 /* Build configuration list for PBXNativeTarget "OzaScrollNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FE1D4E15E4142800021AE0 /* Debug */,
+				37FE1D4F15E4142800021AE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37FE1D5015E4142800021AE0 /* Build configuration list for PBXNativeTarget "OzaScrollNavTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FE1D5115E4142800021AE0 /* Debug */,
+				37FE1D5215E4142800021AE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37FE1D1115E4142800021AE0 /* Project object */;
+}
